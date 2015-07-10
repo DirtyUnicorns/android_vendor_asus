@@ -245,6 +245,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/moorefield/fhd/proprietary/etc/firmware/vtsv_lib_1495.bin:system/etc/firmware/vtsv_lib_1495.bin \
     vendor/asus/moorefield/fhd/proprietary/lib/hw/lights.mofd_v1.so:system/lib/hw/lights.mofd_v1.so \
     vendor/asus/moorefield/fhd/proprietary/lib/hw/power.mofd_v1.so:system/lib/hw/power.mofd_v1.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/hw/gps.mofd_v1.so:system/lib/hw/gps.mofd_v1.so \
     vendor/asus/moorefield/fhd/proprietary/vendor/firmware/bcm2079x-a2_firmware.ncd:system/vendor/firmware/bcm2079x-a2_firmware.ncd \
     vendor/asus/moorefield/fhd/proprietary/lib/libmcdr.so:system/lib/libmcdr.so \
     vendor/asus/moorefield/fhd/proprietary/lib/libmmgrcli.so:system/lib/libmmgrcli.so \
