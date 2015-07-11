@@ -218,6 +218,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/moorefield/fhd/proprietary/vendor/lib/libsrv_um.so:system/vendor/lib/libsrv_um.so \
     vendor/asus/moorefield/fhd/proprietary/vendor/lib/libusc.so:system/vendor/lib/libusc.so \
     vendor/asus/moorefield/fhd/proprietary/vendor/lib/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
+    vendor/asus/moorefield/fhd/proprietary/vendor/lib/liboclcompiler.so:system/vendor/lib/liboclcompiler.so \
     vendor/asus/moorefield/fhd/proprietary/vendor/lib/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
     vendor/asus/moorefield/fhd/proprietary/vendor/lib/libpvr2d.dbg:system/vendor/lib/libpvr2d.dbg \
     vendor/asus/moorefield/fhd/proprietary/vendor/lib/libpvr2d.so:system/vendor/lib/libpvr2d.so \
@@ -236,6 +237,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/moorefield/fhd/proprietary/bin/sensorhubd:system/bin/sensorhubd \
     vendor/asus/moorefield/fhd/proprietary/bin/mmgr:system/bin/mmgr \
     vendor/asus/moorefield/fhd/proprietary/bin/logcontrol:system/bin/logcontrol \
+    vendor/asus/moorefield/fhd/proprietary/bin/houdini:bin/houdini \
     vendor/asus/moorefield/fhd/proprietary/lib/libhoudini.so:system/lib/libhoudini.so \
     vendor/asus/moorefield/fhd/proprietary/etc/firmware/aac_dec_1495.bin:system/etc/firmware/aac_dec_1495.bin \
     vendor/asus/moorefield/fhd/proprietary/etc/firmware/audclass_lib_1495.bin:system/etc/firmware/audclass_lib_1495.bin \
