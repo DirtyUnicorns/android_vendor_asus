@@ -118,6 +118,94 @@ PRODUCT_COPY_FILES += \
     vendor/asus/moorefield/fhd/proprietary/lib/arm/libwilhelm.so:system/lib/arm/libwilhelm.so \
     vendor/asus/moorefield/fhd/proprietary/lib/arm/libz.so:system/lib/arm/libz.so \
     vendor/asus/moorefield/fhd/proprietary/lib/arm/linker:system/lib/arm/linker \
+    vendor/asus/moorefield/fhd/proprietary/etc/atomisp/00gc2235.aiqb:system/etc/atomisp/00gc2235.aiqb \
+    vendor/asus/moorefield/fhd/proprietary/etc/atomisp/00imx134.aiqb:system/etc/atomisp/00imx134.aiqb \
+    vendor/asus/moorefield/fhd/proprietary/etc/atomisp/00imx135-0-0x2-0x1.aiqb:system/etc/atomisp/00imx135-0-0x2-0x1.aiqb \
+    vendor/asus/moorefield/fhd/proprietary/etc/atomisp/00imx135-0-0x4-0.aiqb:system/etc/atomisp/00imx135-0-0x4-0.aiqb \
+    vendor/asus/moorefield/fhd/proprietary/etc/atomisp/00imx135-0-0x8-0.aiqb:system/etc/atomisp/00imx135-0-0x8-0.aiqb \
+    vendor/asus/moorefield/fhd/proprietary/etc/atomisp/00imx135-0-0x8-0x1.aiqb:system/etc/atomisp/00imx135-0-0x8-0x1.aiqb \
+    vendor/asus/moorefield/fhd/proprietary/etc/atomisp/00imx135-0-0x8-0x2.aiqb:system/etc/atomisp/00imx135-0-0x8-0x2.aiqb \
+    vendor/asus/moorefield/fhd/proprietary/etc/atomisp/00imx135-0-0x8-0x5.aiqb:system/etc/atomisp/00imx135-0-0x8-0x5.aiqb \
+    vendor/asus/moorefield/fhd/proprietary/etc/atomisp/00imx175.aiqb:system/etc/atomisp/00imx175.aiqb \
+    vendor/asus/moorefield/fhd/proprietary/etc/atomisp/00imx219.aiqb:system/etc/atomisp/00imx219.aiqb \
+    vendor/asus/moorefield/fhd/proprietary/etc/atomisp/00m10mo-0-0x8-0.aiqb:system/etc/atomisp/00m10mo-0-0x8-0.aiqb \
+    vendor/asus/moorefield/fhd/proprietary/etc/atomisp/00mt9e013.aiqb:system/etc/atomisp/00mt9e013.aiqb \
+    vendor/asus/moorefield/fhd/proprietary/etc/atomisp/00ov13850.aiqb:system/etc/atomisp/00ov13850.aiqb \
+    vendor/asus/moorefield/fhd/proprietary/etc/atomisp/00ov5693.aiqb:system/etc/atomisp/00ov5693.aiqb \
+    vendor/asus/moorefield/fhd/proprietary/etc/atomisp/00ov8830-0-0x2-0.aiqb:system/etc/atomisp/00ov8830-0-0x2-0.aiqb \
+    vendor/asus/moorefield/fhd/proprietary/etc/atomisp/00ov8858.aiqb:system/etc/atomisp/00ov8858.aiqb \
+    vendor/asus/moorefield/fhd/proprietary/etc/atomisp/00t4k37.aiqb:system/etc/atomisp/00t4k37.aiqb \
+    vendor/asus/moorefield/fhd/proprietary/etc/atomisp/01gc0339.aiqb:system/etc/atomisp/01gc0339.aiqb \
+    vendor/asus/moorefield/fhd/proprietary/etc/atomisp/01imx132.aiqb:system/etc/atomisp/01imx132.aiqb \
+    vendor/asus/moorefield/fhd/proprietary/etc/atomisp/01imx208.aiqb:system/etc/atomisp/01imx208.aiqb \
+    vendor/asus/moorefield/fhd/proprietary/etc/atomisp/01mt9m114.aiqb:system/etc/atomisp/01mt9m114.aiqb \
+    vendor/asus/moorefield/fhd/proprietary/etc/atomisp/01ov2722.aiqb:system/etc/atomisp/01ov2722.aiqb \
+    vendor/asus/moorefield/fhd/proprietary/etc/atomisp/01ov5670.aiqb:system/etc/atomisp/01ov5670.aiqb \
+    vendor/asus/moorefield/fhd/proprietary/etc/atomisp/01ov680.aiqb:system/etc/atomisp/01ov680.aiqb \
+    vendor/asus/moorefield/fhd/proprietary/etc/atomisp/01ov9724.aiqb:system/etc/atomisp/01ov9724.aiqb \
+    vendor/asus/moorefield/fhd/proprietary/etc/atomisp/01ov9760.aiqb:system/etc/atomisp/01ov9760.aiqb \
+    vendor/asus/moorefield/fhd/proprietary/etc/atomisp/01s5k6b2yx.aiqb:system/etc/atomisp/01s5k6b2yx.aiqb \
+    vendor/asus/moorefield/fhd/proprietary/etc/camera3_profiles.xml:system/etc/camera3_profiles.xml \
+    vendor/asus/moorefield/fhd/proprietary/etc/camera_profiles.xml:system/etc/camera_profiles.xml \
+    vendor/asus/moorefield/fhd/proprietary/etc/cms_device_config.xml:system/etc/cms_device_config.xml \
+    vendor/asus/moorefield/fhd/proprietary/etc/cms_throttle_config.xml:system/etc/cms_throttle_config.xml \
+    vendor/asus/moorefield/fhd/proprietary/lib/hw/camera.mofd_v1.so:system/lib/hw/camera.mofd_v1.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/hw/m10mo/camera.m10mo.so:system/lib/hw/m10mo/camera.m10mo.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libArcsoft3DNR.so:system/lib/libArcsoft3DNR.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libArcsoftFaceEffect.so:system/lib/libArcsoftFaceEffect.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libArcsoftFaceTracking.so:system/lib/libArcsoftFaceTracking.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libArcsoftFlawlessFace.so:system/lib/libArcsoftFlawlessFace.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libarcsoftHDR_3DNR.so:system/lib/libarcsoftHDR_3DNR.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libArcsoftHDR.so:system/lib/libArcsoftHDR.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libArcsoftNightHawk.so:system/lib/libArcsoftNightHawk.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libasfparser.so:system/lib/libasfparser.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libArcsoftStabilizer.so:system/lib/libArcsoftStabilizer.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libcilkrts.so:system/lib/libcilkrts.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libia_aiq.so:system/lib/libia_aiq.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libia_cmc_parser.so:system/lib/libia_cmc_parser.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libia_dvs_2.so:system/lib/libia_dvs_2.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libia_emd_decoder.so:system/lib/libia_emd_decoder.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libia_exc.so:system/lib/libia_exc.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libia_face.so:system/lib/libia_face.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libia_isp_1_5.so:system/lib/libia_isp_1_5.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libia_isp_2_2.so:system/lib/libia_isp_2_2.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libia_log.so:system/lib/libia_log.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libia_mkn.so:system/lib/libia_mkn.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libia_nvm.so:system/lib/libia_nvm.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libia_panorama.so:system/lib/libia_panorama.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libiacp.so:system/lib/libiacp.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libifp.so:system/lib/libifp.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libimf.so:system/lib/libimf.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libintlc.so:system/lib/libintlc.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libirng.so:system/lib/libirng.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libmix_imageencoder.so:system/lib/libmix_imageencoder.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libsvml.so:system/lib/libsvml.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libtbd.so:system/lib/libtbd.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libxditk_AT.so:system/lib/libxditk_AT.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libxditk_DIT_Manager.so:system/lib/libxditk_DIT_Manager.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libxditk_DIT_Moorefield.so:system/lib/libxditk_DIT_Moorefield.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libxditk_ISP.so:system/lib/libxditk_ISP.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libxditk_SR.so:system/lib/libxditk_SR.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/libintelmetadatabuffer.so:system/lib/libintelmetadatabuffer.so \
+    vendor/asus/moorefield/fhd/proprietary/lib/DataSet/ditSCidGen/msgchk.db:system/lib/DataSet/ditSCidGen/msgchk.db \
+    vendor/asus/moorefield/fhd/proprietary/lib/DataSet/ISP/libxditk_isp.bin:system/lib/DataSet/ISP/libxditk_isp.bin \
+    vendor/asus/moorefield/fhd/proprietary/lib/DataSet/SR/SR_01.bin:system/lib/DataSet/SR/SR_01.bin \
+    vendor/asus/moorefield/fhd/proprietary/lib/DataSet/SR/SR_02.bin:system/lib/DataSet/SR/SR_02.bin \
+    vendor/asus/moorefield/fhd/proprietary/lib/DataSet/SR/SR_03.bin:system/lib/DataSet/SR/SR_03.bin \
+    vendor/asus/moorefield/fhd/proprietary/lib/DataSet/SR/SR_04.bin:system/lib/DataSet/SR/SR_04.bin \
+    vendor/asus/moorefield/fhd/proprietary/lib/DataSet/SR/SR_05.bin:system/lib/DataSet/SR/SR_05.bin \
+    vendor/asus/moorefield/fhd/proprietary/lib/DataSet/SR/SR_06.bin:system/lib/DataSet/SR/SR_06.bin \
+    vendor/asus/moorefield/fhd/proprietary/lib/DIT_AT_BACK_HL.cfg:system/lib/DIT_AT_BACK_HL.cfg \
+    vendor/asus/moorefield/fhd/proprietary/lib/DIT_AT_BACK_NORMAL.cfg:system/lib/DIT_AT_BACK_NORMAL.cfg \
+    vendor/asus/moorefield/fhd/proprietary/lib/DIT_AT_BACK_PREVIEW.cfg:system/lib/DIT_AT_BACK_PREVIEW.cfg \
+    vendor/asus/moorefield/fhd/proprietary/lib/DIT_AT_BACK_SR.cfg:system/lib/DIT_AT_BACK_SR.cfg \
+    vendor/asus/moorefield/fhd/proprietary/lib/DIT_AT_BACK_VIDEO.cfg:system/lib/DIT_AT_BACK_VIDEO.cfg \
+    vendor/asus/moorefield/fhd/proprietary/lib/DIT_AT_FRONT_HL.cfg:system/lib/DIT_AT_FRONT_HL.cfg \
+    vendor/asus/moorefield/fhd/proprietary/lib/DIT_AT_FRONT_NORMAL.cfg:system/lib/DIT_AT_FRONT_NORMAL.cfg \
+    vendor/asus/moorefield/fhd/proprietary/lib/DIT_AT_FRONT_PRE.cfg:system/lib/DIT_AT_FRONT_PRE.cfg \
+    vendor/asus/moorefield/fhd/proprietary/lib/DIT_AT_FRONT_VIDEO.cfg:system/lib/DIT_AT_FRONT_VIDEO.cfg \
     vendor/asus/moorefield/fhd/proprietary/bin/dpstmgr:system/bin/dpstmgr \
     vendor/asus/moorefield/fhd/proprietary/lib/libdm_dpst.so:system/lib/libdm_dpst.so \
     vendor/asus/moorefield/fhd/proprietary/vendor/bin/hwperfbin2jsont:system/vendor/bin/hwperfbin2jsont \
@@ -146,7 +234,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/moorefield/fhd/proprietary/bin/customize_service:system/bin/customize_service \
     vendor/asus/moorefield/fhd/proprietary/bin/nvm_server:system/bin/nvm_server \
     vendor/asus/moorefield/fhd/proprietary/bin/sensorhubd:system/bin/sensorhubd \
-    vendor/asus/moorefield/fhd/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/asus/moorefield/fhd/proprietary/bin/mmgr:system/bin/mmgr \
     vendor/asus/moorefield/fhd/proprietary/bin/logcontrol:system/bin/logcontrol \
     vendor/asus/moorefield/fhd/proprietary/lib/libhoudini.so:system/lib/libhoudini.so \
@@ -243,9 +330,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/moorefield/fhd/proprietary/etc/firmware/vsp.bin.prod:system/etc/firmware/vsp.bin.prod \
     vendor/asus/moorefield/fhd/proprietary/etc/firmware/vsp.bin.verf:system/etc/firmware/vsp.bin.verf \
     vendor/asus/moorefield/fhd/proprietary/etc/firmware/vtsv_lib_1495.bin:system/etc/firmware/vtsv_lib_1495.bin \
+    vendor/asus/moorefield/fhd/proprietary/bin/gpsd:system/bin/gpsd \
+    vendor/asus/moorefield/fhd/proprietary/lib/hw/gps.mofd_v1.so:system/lib/hw/gps.mofd_v1.so \
     vendor/asus/moorefield/fhd/proprietary/lib/hw/lights.mofd_v1.so:system/lib/hw/lights.mofd_v1.so \
     vendor/asus/moorefield/fhd/proprietary/lib/hw/power.mofd_v1.so:system/lib/hw/power.mofd_v1.so \
-    vendor/asus/moorefield/fhd/proprietary/lib/hw/gps.mofd_v1.so:system/lib/hw/gps.mofd_v1.so \
     vendor/asus/moorefield/fhd/proprietary/vendor/firmware/bcm2079x-a2_firmware.ncd:system/vendor/firmware/bcm2079x-a2_firmware.ncd \
     vendor/asus/moorefield/fhd/proprietary/lib/libmcdr.so:system/lib/libmcdr.so \
     vendor/asus/moorefield/fhd/proprietary/lib/libmmgrcli.so:system/lib/libmmgrcli.so \
