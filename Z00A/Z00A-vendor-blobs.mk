@@ -247,7 +247,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z00A/proprietary/lib/DIT_AT_FRONT_NORMAL.cfg:system/lib/DIT_AT_FRONT_NORMAL.cfg \
     vendor/asus/Z00A/proprietary/lib/DIT_AT_FRONT_PRE.cfg:system/lib/DIT_AT_FRONT_PRE.cfg \
     vendor/asus/Z00A/proprietary/lib/DIT_AT_FRONT_VIDEO.cfg:system/lib/DIT_AT_FRONT_VIDEO.cfg \
-    vendor/asus/Z00A/proprietary/lib/hw/m10mo/camera.m10mo.so:system/lib/hw/camera.moorefield.so \
+    vendor/asus/Z00A/proprietary/lib/hw/camera.moorefield.so:system/lib/hw/camera.moorefield.so \
     vendor/asus/Z00A/proprietary/lib/libArcsoft3DNR.so:system/lib/libArcsoft3DNR.so \
     vendor/asus/Z00A/proprietary/lib/libArcsoftFaceEffect.so:system/lib/libArcsoftFaceEffect.so \
     vendor/asus/Z00A/proprietary/lib/libArcsoftFaceTracking.so:system/lib/libArcsoftFaceTracking.so \
