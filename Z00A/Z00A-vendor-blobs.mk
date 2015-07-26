@@ -186,6 +186,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z00A/proprietary/lib/soundfx/liblpepreprocessing.so:system/lib/soundfx/liblpepreprocessing.so \
     vendor/asus/Z00A/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
     vendor/asus/Z00A/proprietary/vendor/etc/route_criteria.conf:system/vendor/etc/route_criteria.conf \
+    vendor/asus/Z00A/proprietary/etc/firmware/BCM4335C0_003.001.009.0105.0563_Asus_ZE551ML.hcd:system/etc/firmware/BCM4335C0_003.001.009.0105.0563_Asus_ZE551ML.hcd \
+    vendor/asus/Z00A/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/asus/Z00A/proprietary/etc/atomisp/00gc2235.aiqb:system/etc/atomisp/00gc2235.aiqb \
     vendor/asus/Z00A/proprietary/etc/atomisp/00imx134.aiqb:system/etc/atomisp/00imx134.aiqb \
     vendor/asus/Z00A/proprietary/etc/atomisp/00imx135-0-0x2-0x1.aiqb:system/etc/atomisp/00imx135-0-0x2-0x1.aiqb \
@@ -276,6 +278,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z00A/proprietary/lib/libimf.so:system/lib/libimf.so \
     vendor/asus/Z00A/proprietary/lib/libintlc.so:system/lib/libintlc.so \
     vendor/asus/Z00A/proprietary/lib/libirng.so:system/lib/libirng.so \
+    vendor/asus/Z00A/proprietary/lib/libmix_imagedecoder.so:system/lib/libmix_imagedecoder.so \
     vendor/asus/Z00A/proprietary/lib/libmix_imageencoder.so:system/lib/libmix_imageencoder.so \
     vendor/asus/Z00A/proprietary/lib/libsvml.so:system/lib/libsvml.so \
     vendor/asus/Z00A/proprietary/lib/libtbd.so:system/lib/libtbd.so \
@@ -293,6 +296,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z00A/proprietary/vendor/firmware/00imx135-0-0x8-0x5.drvb:system/vendor/firmware/00imx135-0-0x8-0x5.drvb \
     vendor/asus/Z00A/proprietary/vendor/firmware/00ov8830-0-0x2-0.drvb:system/vendor/firmware/00ov8830-0-0x2-0.drvb \
     vendor/asus/Z00A/proprietary/vendor/firmware/01s5k8aay.drvb:system/vendor/firmware/01s5k8aay.drvb \
+    vendor/asus/Z00A/proprietary/lib/libkeymaster.so:system/lib/libkeymaster.so \
+    vendor/asus/Z00A/proprietary/lib/hw/keystore.moorefield.so:system/lib/hw/keystore.moorefield.so \
     vendor/asus/Z00A/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/asus/Z00A/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/asus/Z00A/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
@@ -300,8 +305,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z00A/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/asus/Z00A/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/asus/Z00A/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/asus/Z00A/proprietary/bin/dpstmgr:system/bin/dpstmgr \
-    vendor/asus/Z00A/proprietary/lib/libdm_dpst.so:system/lib/libdm_dpst.so \
     vendor/asus/Z00A/proprietary/lib/libpvr2d.so:system/lib/libpvr2d.so \
     vendor/asus/Z00A/proprietary/vendor/bin/hwperfbin2jsont:system/vendor/bin/hwperfbin2jsont \
     vendor/asus/Z00A/proprietary/vendor/bin/pvrdebug:system/vendor/bin/pvrdebug \
@@ -320,6 +323,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z00A/proprietary/vendor/lib/libPVROCL.so:system/vendor/lib/libPVROCL.so \
     vendor/asus/Z00A/proprietary/vendor/lib/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
     vendor/asus/Z00A/proprietary/vendor/lib/libsrv_init.so:system/vendor/lib/libsrv_init.so \
+    vendor/asus/Z00A/proprietary/vendor/lib/libufwriter.dbg:system/vendor/lib/libufwriter.dbg \
+    vendor/asus/Z00A/proprietary/vendor/lib/libufwriter.so:system/vendor/lib/libufwriter.so \
     vendor/asus/Z00A/proprietary/vendor/lib/egl/libEGL_POWERVR_ROGUE.so:system/vendor/lib/egl/libEGL_POWERVR_ROGUE.so \
     vendor/asus/Z00A/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_ROGUE.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_ROGUE.so \
     vendor/asus/Z00A/proprietary/vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so:system/vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so \
@@ -364,9 +369,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z00A/proprietary/etc/binfmt_misc/arm_exe:system/etc/binfmt_misc/arm_exe \
     vendor/asus/Z00A/proprietary/bin/houdini:system/bin/houdini \
     vendor/asus/Z00A/proprietary/lib/libhoudini.so:system/lib/libhoudini.so \
-    vendor/asus/Z00A/proprietary/lib/hw/lights.mofd_v1.so:system/lib/hw/lights.mofd_v1.so \
     vendor/asus/Z00A/proprietary/lib/libdx_cc7.so:system/lib/libdx_cc7.so \
     vendor/asus/Z00A/proprietary/lib/libgabi++-mfx.so:system/lib/libgabi++-mfx.so \
+    vendor/asus/Z00A/proprietary/lib/libmdp_omx_core.so:system/lib/libmdp_omx_core.so \
     vendor/asus/Z00A/proprietary/lib/libmfx_omx_components_sw.so:system/lib/libmfx_omx_components_sw.so \
     vendor/asus/Z00A/proprietary/lib/libmfx_omx_core.so:system/lib/libmfx_omx_core.so \
     vendor/asus/Z00A/proprietary/lib/libmfxsw32.so:system/lib/libmfxsw32.so \
@@ -752,6 +757,5 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z00A/proprietary/lib/libcontextarbitor.so:system/lib/libcontextarbitor.so \
     vendor/asus/Z00A/proprietary/lib/libnetd_client.so:system/lib/libnetd_client.so \
     vendor/asus/Z00A/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
-    vendor/asus/Z00A/proprietary/etc/firmware/BCM4335C0_003.001.009.0105.0563_Asus_ZE551ML.hcd:system/etc/firmware/BCM4335C0_003.001.009.0105.0563_Asus_ZE551ML.hcd \
     vendor/asus/Z00A/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
     vendor/asus/Z00A/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin
