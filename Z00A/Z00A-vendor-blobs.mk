@@ -247,8 +247,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z00A/proprietary/lib/DIT_AT_FRONT_NORMAL.cfg:system/lib/DIT_AT_FRONT_NORMAL.cfg \
     vendor/asus/Z00A/proprietary/lib/DIT_AT_FRONT_PRE.cfg:system/lib/DIT_AT_FRONT_PRE.cfg \
     vendor/asus/Z00A/proprietary/lib/DIT_AT_FRONT_VIDEO.cfg:system/lib/DIT_AT_FRONT_VIDEO.cfg \
-    vendor/asus/Z00A/proprietary/lib/hw/camera.mofd_v1.so:system/lib/hw/camera.mofd_v1.so \
-    vendor/asus/Z00A/proprietary/lib/hw/m10mo/camera.m10mo.so:system/lib/hw/m10mo/camera.m10mo.so \
+    vendor/asus/Z00A/proprietary/lib/hw/m10mo/camera.m10mo.so:system/lib/hw/camera.moorefield.so
     vendor/asus/Z00A/proprietary/lib/libArcsoft3DNR.so:system/lib/libArcsoft3DNR.so \
     vendor/asus/Z00A/proprietary/lib/libArcsoftFaceEffect.so:system/lib/libArcsoftFaceEffect.so \
     vendor/asus/Z00A/proprietary/lib/libArcsoftFaceTracking.so:system/lib/libArcsoftFaceTracking.so \
@@ -369,6 +368,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z00A/proprietary/etc/binfmt_misc/arm_exe:system/etc/binfmt_misc/arm_exe \
     vendor/asus/Z00A/proprietary/bin/houdini:system/bin/houdini \
     vendor/asus/Z00A/proprietary/lib/libhoudini.so:system/lib/libhoudini.so \
+    vendor/asus/Z00A/proprietary/lib/hw/lights.vendor.mofd_v1.so:system/lib/hw/lights.vendor.mofd_v1.so \
     vendor/asus/Z00A/proprietary/lib/libdx_cc7.so:system/lib/libdx_cc7.so \
     vendor/asus/Z00A/proprietary/lib/libgabi++-mfx.so:system/lib/libgabi++-mfx.so \
     vendor/asus/Z00A/proprietary/lib/libmdp_omx_core.so:system/lib/libmdp_omx_core.so \
