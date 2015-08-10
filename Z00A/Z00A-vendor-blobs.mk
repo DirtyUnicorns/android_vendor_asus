@@ -278,6 +278,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z00A/proprietary/lib/libimf.so:system/lib/libimf.so \
     vendor/asus/Z00A/proprietary/lib/libintlc.so:system/lib/libintlc.so \
     vendor/asus/Z00A/proprietary/lib/libirng.so:system/lib/libirng.so \
+    vendor/asus/Z00A/proprietary/lib/libmixvbp.so:system/lib/libmixvbp.so \
     vendor/asus/Z00A/proprietary/lib/libmix_imagedecoder.so:system/lib/libmix_imagedecoder.so \
     vendor/asus/Z00A/proprietary/lib/libmix_imageencoder.so:system/lib/libmix_imageencoder.so \
     vendor/asus/Z00A/proprietary/lib/libsvml.so:system/lib/libsvml.so \
